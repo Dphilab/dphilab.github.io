@@ -79,6 +79,17 @@ nav a.active {
     background: rgba(27, 154, 170, 0.1);
 }
 
+.lang-switch {
+    background: rgba(27, 154, 170, 0.15);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.lang-switch:hover {
+    background: rgba(233, 30, 140, 0.15);
+}
+
 /* Gradient Bar under navigation */
 .gradient-bar {
     height: 6px;
