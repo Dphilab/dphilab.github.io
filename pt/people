@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>d.Phi Lab - People</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="dphi-logo.png" alt="d.Phi Logo">
+            </a>
+        </div>
+        <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="people.html" class="active">People</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="yourideas.html">Your Ideas</a></li>
+                <li><a href="index.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="pt/index.html" class="lang-switch">🇧🇷 PT</a></li>
+        </ul>
+    </nav>
+    <div class="gradient-bar"></div>
+</header>
+
+
+    <main>
+        <div class="page-header">
+          <!--  <h1>Our Team</h1>
+            <p>Meet the researchers driving experimental philosophy forward</p>
+            -->
+        </div>
+
+        <section>
+            <h2>Principal Investigator</h2>
+            <div class="people-grid">
+                <div class="person-card">
+                    <div class="person-photo">
+                        <img src="photos/researcher1.jpg" alt="Celso Vieira">
+                        <!-- If no photo yet, remove the img tag and it will show a placeholder -->
+                    </div>
+                    <div class="person-info">
+                        <h3>Celso Vieira</h3>
+                        <p class="role">Lab Director & Principal Investigator</p>
+                        <p class="email"><a href="mailto:email@ufmg.br">email@ufmg.br</a></p>
+                        <p>Research interests: Experimental philosophy, moral psychology, applied ethics, altruism</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Researchers</h2>
+            <div class="people-grid">
+                <div class="person-card">
+                    <div class="person-photo">
+                   <!--      <img src="photos/researcher2.jpg" alt="Researcher Name"> -->
+                    </div>
+                    <div class="person-info">
+                        <h3>[Researcher Name]</h3>
+                        <p class="role">Postdoctoral Researcher</p>
+                        <p class="email"><a href="mailto:email@ufmg.br">email@ufmg.br</a></p>
+                        <p>Research interests: Experimental epistemology, social cognition, folk concepts of knowledge</p>
+                    </div>
+                </div>
+
+                <div class="person-card">
+                    <div class="person-photo">
+                    <!--    <img src="photos/researcher4.jpg" alt="Researcher Name"> -->
+                    </div>
+                    <div class="person-info">
+                        <h3>[Researcher Name]</h3>
+                        <p class="role">PhD Student</p>
+                        <p class="email"><a href="mailto:email@ufmg.br">email@ufmg.br</a></p>
+                        <p>Research interests: Free will, moral responsibility, determinism</p>
+                    </div>
+                </div>
+
+                <div class="person-card">
+                    <div class="person-photo">
+                     <!--   <img src="photos/researcher5.jpg" alt="Researcher Name"> -->
+                    </div>
+                    <div class="person-info">
+                        <h3>[Researcher Name]</h3>
+                        <p class="role">Master's Student</p>
+                        <p class="email"><a href="mailto:email@ufmg.br">email@ufmg.br</a></p>
+                        <p>Research interests: Philosophy of mind, consciousness, qualia</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--
+        <section>
+            <h2>Research Assistants</h2>
+            <div class="people-grid">
+                <div class="person-card">
+                    <div class="person-photo">
+                        <img src="photos/assistant1.jpg" alt="Assistant Name">
+                    </div>
+                    <div class="person-info">
+                        <h3>[Assistant Name]</h3>
+                        <p class="role">Research Assistant</p>
+                        <p>Undergraduate in Philosophy</p>
+                    </div>
+                </div>
+
+                <div class="person-card">
+                    <div class="person-photo">
+                        <img src="photos/assistant2.jpg" alt="Assistant Name">
+                    </div>
+                    <div class="person-info">
+                        <h3>[Assistant Name]</h3>
+                        <p class="role">Research Assistant</p>
+                        <p>Undergraduate in Psychology</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+-->
+        <section>
+            <h2>Collaborators</h2>
+            <div class="people-grid">
+
+ <div class="person-card">
+                    <div class="person-photo">
+                        <img src="photos/collaborator4.jpg" alt="Eric Schwitzgebel"> 
+                    </div>
+                    <div class="person-info">
+                        <h3><a href="https://faculty.ucr.edu/~eschwitz/">Eric Schwitzgebel</a></h3>
+                        <p class="role">Collaborator</p>
+                        <p>Affiliation: University of California, Riverside</p>
+                        <p>Research interests: philosophy of psychology, philosophy of mind, moral psychology, classical Chinese philosophy</p>
+                    </div>
+                </div>
+
+                
+                <div class="person-card">
+                    <div class="person-photo">
+                        <img src="photos/collaborator1.jpg" alt="Alex Wiegmann"> 
+                    </div>
+                    <div class="person-info">
+                        <h3><a href="https://www.researchgate.net/profile/Alex-Wiegmann">Alex Wiegmann</a></h3>
+                        <p class="role">Collaborator</p>
+                        <p>Affiliation: University of Granada</p>
+                        <p>Research interests: Cognitive Science, Moral Psychology, Experimental Psychology</p>
+                    </div>
+                </div>
+<!--
+                <div class="person-card">
+                    <div class="person-photo">
+                        <img src="photos/collaborator2.jpg" alt="Débora Mariz">
+                    </div>
+                    <div class="person-info">
+                        <h3><a href="https://somos.ufmg.br/professor/debora-mariz">Débora Mariz</a></h3>
+                        <p class="role">Collaborator</p>
+                        <p>Affiliation: Universidade Federal de Minas Gerais</p>
+                        <p>Research interests:Métodos e Técnicas de Ensino, Ensino de Filosofia, Formação de Professores </p>
+                    </div>
+                </div>
+            </div>
+                -->
+                 <div class="person-card">
+                    <div class="person-photo">
+                        <img src="photos/collaborator3.jpg" alt="Rodrigo Díaz"> 
+                    </div>
+                    <div class="person-info">
+                        <h3><a href="https://rodrigodiaz946.wixsite.com/philosophy">Rodrigo Díaz</a></h3>
+                        <p class="role">Collaborator</p>
+                        <p>Affiliation: University of Geneva</p>
+                        <p>Research interests: Ethics, Emotions, Moral Psychology, Experimental Philosophy</p>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+  <footer>
+    <div class="footer-content">
+        <div class="footer-logos">
+            <img src="CNPq_v2017_rgb.jpg" alt="CNPq Logo">
+            <img src="logo_ufmg_site.png" alt="UFMG Logo">
+            <a href="https://creativecommons.org/licenses/by/4.0/">
+                        <img src="cc_logo.png" alt="Creative Commons">
+</a>
+
+
+        </div>
+        <div class="footer-text">
+            <p> -- 2026 d.Phi Lab - Experimental Philosophy @ UFMG -- </p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+```
+<!--
+Create a `photos` folder in your website directory and add images with these names:
+```
+photos/
+├── researcher1.jpg
+├── researcher2.jpg
+├── researcher3.jpg
+├── researcher4.jpg
+├── researcher5.jpg
+├── assistant1.jpg
+├── assistant2.jpg
+├── collaborator1.jpg
+└── collaborator2.jpg
+-->
