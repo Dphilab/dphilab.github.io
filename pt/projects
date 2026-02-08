@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>d.Phi Lab - Projects</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>d.Phi Lab - People</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="dphi-logo.png" alt="d.Phi Logo">
+            </a>
+        </div>
+        <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="people.html">People</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="yourideas.html">Your Ideas</a></li>
+                <li><a href="index.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="pt/index.html" class="lang-switch">🇧🇷 PT</a></li>
+        </ul>
+    </nav>
+    <div class="gradient-bar"></div>
+</header>
+
+
+
+    <main>
+        <div class="page-header">
+         <!--   <h1>Research Projects</h1>
+            <p>Current and ongoing investigations</p> -->
+        </div>
+
+        <section>
+            <h2>Projects</h2>
+            
+            <div class="project-card">
+                <h3>Dual-Process Models in the Case of Positive Duties</h3>
+                <!-- <p><strong>Principal Investigator:</strong> Celso Vieira</p> -->
+                <p><strong>Description:</strong> Many competing dual-process models attempt to best capture human decision-making. Evidence suggests that different decision contexts yield different procedures. One such context is moral decision-making, for which some dual-process models have proven useful in capturing its peculiarities.</p>
+                <!-- <p><strong>Methods:</strong> Surveys in Portuguese, English, and Spanish; cross-cultural statistical analysis</p> -->
+                                <p> Moral philosophy tends to focus on negative duties—that is, on what we should not do. One example is the obligation to do no harm. In contrast, positive duties refer to what we should actively do, such as helping others. Historically, ethicists have paid much more attention to negative duties, largely neglecting positive moral philosophy.</p>
+                                <p> Empirical research confirms that our attitudes toward positive and negative duties differ, with negative duties being much more psychologically salient. However, positive duties are an integral part of morality. To address this asymmetry, this project will empirically test different dual-process models related to positive duties, such as beneficence and altruism.</p>
+                <!--  <p><strong>Status:</strong> Ongoing</p>
+               <p><strong>Collaborators:</strong> International x-phi network</p> -->
+            </div>
+
+             </div>
+            <div class="project-card">
+                <h3>Early Ethical Education</h3>
+                <!-- <p><strong>Principal Investigator:</strong> Celso Vieira</p> -->
+                <p><strong>Description:</strong> There is evidence that religion, social norms, and punishment influence the moral behavior of children and adolescents. However, these sources fall short of fostering moral autonomy, a desirable capacity in democratic societies. Ethics offers an alternative that seems capable of satisfying this need. Nevertheless, more research is needed to confirm the effectiveness of ethical education and identify the most effective methods. The aim of this project is to empirically test different strategies to determine if and how ethical education can produce autonomous moral decision-makers. </p>
+                <!-- <p><strong>Methods:</strong> Surveys in Portuguese, English, and Spanish; cross-cultural statistical analysis</p>
+                <p><strong>Status:</strong> Ongoing</p>
+                <p><strong>Collaborators:</strong> International x-phi network</p> -->
+            </div>
+
+             </div>
+            <div class="project-card">
+                <h3>Morality in Small Societies</h3>
+                <!-- <p><strong>Principal Investigator:</strong> Celso Vieira</p> -->
+                <p><strong>Description:</strong> Historically, moral philosophers have based their arguments on what they intuitively perceive as right without checking if these intuitions are shared by others. The recent method of experimental philosophy uses empirical methods to challenge this assumption. Cross-cultural studies prove that people’s moral intuitions differ. Despite these efforts, the morals of small societies and marginalized groups remain under-explored. Through this project, we aim to address this oversight by collecting data on the moral beliefs of various indigenous groups and other underrepresented small populations in Brazil.</p>
+               <!--  <p><strong>Methods:</strong> Surveys in Portuguese, English, and Spanish; cross-cultural statistical analysis</p>
+                                <p> Moral philosophy tends to focus on negative duties—that is, on what we should not do. One example is the obligation to do no harm. In contrast, positive duties refer to what we should actively do, such as helping others. Historically, ethicists have paid much more attention to negative duties, largely neglecting positive moral philosophy.</p>
+                                <p> Empirical research confirms that our attitudes toward positive and negative duties differ, with negative duties being much more psychologically salient. However, positive duties are an integral part of morality. To address this asymmetry, this project will empirically test different dual-process models related to positive duties, such as beneficence and altruism.</p>
+
+                <p><strong>Status:</strong> Ongoing</p>
+                <p><strong>Collaborators:</strong> International x-phi network</p> -->
+            </div>
+
+<div class="project-card">
+                <h3>Fast Science</h3>
+  <p><strong>Description:</strong> We recognize that empirical research requires alternating between slow and fast science approaches.
+           <!--   Slow science refers to long-term investigations consisting of multiple studies that aim to shed light on complex issues by creating a solid body of work.</p>
+              <p>Our initial<strong> slow science research project</strong> spans the interdisciplinary fields of applied ethics, moral psychology, and cognitive science. Broadly speaking, our goal is to explore useful models that capture the relationship between moral beliefs and actions. To accomplish this, we will test which, if any, of the various dual-model theories fit the behavior exhibited by people in our empirical investigation. Furthermore, given our applied and developmentalist approach, we aim to find models that can provide us with tools to become more consistent moral actors.</p>
+                <p>In the first phase, we will focus on the concepts of beneficence, altruism, and charity. This area provides an ideal opportunity to examine the suboptimal relationship between our moral beliefs and actions. After all, most people believe beneficence is praiseworthy yet fail to act accordingly.</p> -->
+                <p>In our context, fast science involves designing a relatively simple experiment with a small scope that can be quickly implemented. This allows philosophers to capture current phenomena that may offer unique opportunities to shed light on more general philosophical questions. 
+Ex. During a humanitarian crisis, philosophers may want to investigate changes in people’s judgments about positive duties and obligations to take action.</p>
+                <p>Fast science at D.Phi is also important because it allows our younger researchers to apply empirical methods to their research interests. Accordingly, the subject of investigation is completely open. Each researcher can decide what to explore.</p>
+
+
+       <!--
+        <section>
+            <h2>Completed Projects</h2>
+            
+            <div class="project-card">
+                <h3>Folk Concepts of Consciousness</h3>
+                <p><strong>Principal Investigator:</strong> Dr. [Name]</p>
+                <p><strong>Description:</strong> Investigated lay intuitions about consciousness, phenomenal experience, and the hard problem.</p>
+                <p><strong>Status:</strong> Completed (2023)</p>
+                <p><strong>Publications:</strong> [Link to publications]</p>
+            </div>
+        </section>
+            -->
+    </main>
+
+   <footer>
+    <div class="footer-content">
+        <div class="footer-logos">
+            <img src="CNPq_v2017_rgb.jpg" alt="CNPq Logo">
+            <img src="logo_ufmg_site.png" alt="UFMG Logo">
+            <a href="https://creativecommons.org/licenses/by/4.0/">
+                        <img src="cc_logo.png" alt="Creative Commons">
+</a>
+
+
+        </div>
+        <div class="footer-text">
+            <p> -- 2026 d.Phi Lab - Experimental Philosophy @ UFMG -- </p>
+        </div>
+    </div>
+</body>
+</html>
