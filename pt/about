@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>d.Phi Lab - Home</title>
+    <link rel="stylesheet" href="styles.css">
+<header>
+    <nav>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="dphi-logo.png" alt="d.Phi Logo">
+            </a>
+        </div>
+        <ul>
+                <li><a href="about.html" class="active">About</a></li>
+            <li><a href="people.html">People</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="yourideas.html">Your Ideas</a></li>
+            <li><a href="index.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+                    <li><a href="pt/index.html" class="lang-switch">🇧🇷 PT</a></li>
+
+        </ul>
+    </nav>
+    <div class="gradient-bar"></div>
+</header>
+      
+ <main>
+        <div class="page-header">
+   <!-- 
+            <h1>d.Phi Lab</h1>
+            <p>Experimental Philosophy Research @ UFMG</p>
+     -->
+
+        </div>
+
+        <section id="about">
+            <h2>About the Lab</h2>
+            <p>
+D.Phi is a laboratory for experimental philosophy at the University of Minas Gerais (UFMG) in Brazil. It is coordinated by Celso Vieira and funded by the National Council for Scientific and Technological Development (CNPq).            </p>
+            <p>
+Our research bridges the gap between theoretical philosophy and empirical science by bringing data-driven insights to philosophical investigations. We believe understanding how people and different populations think, reason, and make judgments is essential to developing robust models that improve our understanding of long-standing philosophical debates.            </p>
+            <p>
+The lab was conceived to promote the use of any data-based method in the practice of philosophy. We are committed to fostering projects that use surveys, behavioral experiments, statistical analysis, text mining, game theory, artificial intelligence, qualitative research, and any other innovative methods our members may propose.            </p>
+        </section>
+
+        <section id="mission">
+            <h2>Our Mission</h2>
+            <p> Research
+                <br> - Conduct research on experimental philosophy with a focus on applied, practical results.
+                <br> - Promote the exploration of new, data-based methods in philosophical practice.
+                <br> - Diversify the populations used in x-phi by adding groups such as Brazilians, Indigenous peoples, the African diaspora, immigrants, etc.
+                <br> - Collaborate with researchers and labs around the world.
+<br> Education
+<br> - Advance the practice of experimental philosophy in Brazil.
+                <br> - Form the next generation of Brazilian experimental philosophers.
+                <br> - Promote the practice and results of experimental philosophy to a general Lusophone audience.
+        
+            </p>
+        </section>
+
+          <section id="guidelines">
+            <h2>Our Guidelines</h2>
+            <p>
+We adhere to the principles of <a href="https://www.cos.io/">open science</a>: studies are pre-registered, data and materials are available, and publications are free.
+            </p>
+              <p>
+We comply with the <a href="https://www.go-fair.org/fair-principles/">FAIR</a> guiding principles. Our data are: Findable, Accessible, Interoperable, and Reusable.
+            </p>
+              <p>
+We also follow the <a href="https://www.gida-global.org/care/">CARE</a> principles. Our data aims to provide Collective benefit while giving populations Authority to control their data, always with Responsible and Ethical use.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+    <div class="footer-content">
+        <div class="footer-logos">
+            <img src="CNPq_v2017_rgb.jpg" alt="CNPq Logo">
+            <img src="logo_ufmg_site.png" alt="UFMG Logo">
+            <a href="https://creativecommons.org/licenses/by/4.0/">
+                        <img src="cc_logo.png" alt="Creative Commons">
+</a>
+
+
+        </div>
+        <div class="footer-text">
+            <p> -- 2026 d.Phi Lab - Experimental Philosophy @ UFMG -- </p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
