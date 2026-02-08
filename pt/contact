@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>d.Phi Lab - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="dphi-logo.png" alt="d.Phi Logo">
+                </a>
+            </div>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="people.html">People</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="yourideas.html">Your Ideas</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                                    <li><a href="pt/index.html" class="lang-switch">🇧🇷 PT</a></li>
+            </ul>
+        </nav>
+        <div class="gradient-bar"></div>
+    </header>
+
+    <main>
+        <!--     <section>
+            <h2>Get in Touch</h2>
+            <p>Whether you want to stay updated with our research, join our team, or explore collaboration opportunities, we'd love to hear from you.</p>
+        </section>
+
+        <!-- Newsletter Signup -->
+        <section>
+            <h2>📧 Newsletter</h2>
+        <!--    <p>Stay updated with our latest research, publications, and events.</p> -->
+            
+            <form class="contact-form newsletter-form" action="https://formspree.io/f/xpqjaekk" method="POST">
+                <div class="form-group">
+                    <label for="newsletter-email">Stay updated with our activities</label>
+                    <input type="email" id="newsletter-email" name="email" required placeholder="your.email@example.com">
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="submit-btn">Subscribe to Newsletter</button>
+                </div>
+
+                <input type="hidden" name="_subject" value="New Newsletter Subscription">
+            </form>
+        </section>
+
+        <!-- Join the Lab (Students) -->
+        <section>
+            <h2>🎓 Participe do Laboratório (Estudantes)</h2>
+          <!--  <p>Interested in joining d.Phi Lab as a graduate or undergraduate student? </p> -->
+            
+            <form class="contact-form" action="https://formspree.io/f/xykdgalj" method="POST">
+                <div class="form-group">
+                    <label for="student-name">Nome *</label>
+                    <input type="text" id="student-name" name="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="student-email">Email *</label>
+                    <input type="email" id="student-email" name="email" required placeholder="your.email@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="student-level">Nível *</label>
+                    <select id="student-level" name="level" required>
+                        <option value="">Selecione</option>
+                        <option value="undergraduate">Graduação</option>
+                        <option value="masters">Mestrado</option>
+                        <option value="phd">Doutorado</option>
+                        <!-- <option value="prospective">Prospective Student</option> -->
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="student-message">Mensagem *</label>
+                    <textarea id="student-message" name="message" rows="8" required placeholder="Nos conte sobre os seus interesses"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="submit-btn">Enviar</button>
+                </div>
+
+             <!--   <p class="form-note">* Required fields. We'll review your application and respond within 2 weeks.</p> -->
+                
+                <input type="hidden" name="_subject" value="New Student Application">
+            </form>
+        </section>
+
+        <!-- Collaborate -->
+        <section>
+            <h2>🤝 Collaborate</h2>
+            <!-- <p>Looking to collaborate on research, co-author a paper, or explore joint projects? Let's connect!</p> -->
+            
+            <form class="contact-form" action="https://formspree.io/f/xreazvrw" method="POST">
+                <div class="form-group">
+                    <label for="collab-name">Name *</label>
+                    <input type="text" id="collab-name" name="name" required placeholder="Your full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="collab-email">Email *</label>
+                    <input type="email" id="collab-email" name="email" required placeholder="your.email@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="collab-affiliation">Affiliation *</label>
+                    <input type="text" id="collab-affiliation" name="affiliation" required placeholder="University, Institution, or Organization">
+                </div>
+<!--
+                <div class="form-group">
+                    <label for="collab-position">Position/Role</label>
+                    <input type="text" id="collab-position" name="position" placeholder="e.g., Assistant Professor, Postdoc, Independent Researcher">
+                </div>
+-->
+                <div class="form-group">
+                    <label for="collab-message">Collaboration Proposal *</label>
+                    <textarea id="collab-message" name="message" rows="8" required placeholder="Tell us about:
+- Your research background and interests
+- The type of collaboration you're proposing
+- Potential projects or research questions
+- Timeline and any relevant details"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="submit-btn">Submit</button>
+                </div>
+
+                <!-- <p class="form-note">* Required fields. We'll review your proposal and get back to you within 2 weeks.</p> -->
+                
+                <input type="hidden" name="_subject" value="New Collaboration Proposal">
+            </form>
+        </section>
+
+        <!-- General Contact Info -->
+        <section>
+            <h2>📍 Contact</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3>Email</h3>
+                    <p><a href="mailto:dphi@proton.me">dphi@proton.me</a></p>
+                    <p>For general inquiries about the lab</p>
+                </div>
+
+      <!--          <div class="contact-card">
+                    <h3>Lab Director</h3>
+                    <p>Dr. [Name]</p>
+                    <p><a href="mailto:[email]@ufmg.br">[email]@ufmg.br</a></p>
+                    <p>For research collaborations and academic inquiries</p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>Phone</h3>
+                    <p>+55 (31) [XXXX-XXXX]</p>
+                    <p>Office hours: Monday-Friday, 9:00-17:00</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Visit Us</h2>
+            <div class="contact-card">
+                <h3>Location</h3>
+                <p>d.Phi Lab - Experimental Philosophy</p>
+                <p>Department of Philosophy</p>
+                <p>Universidade Federal de Minas Gerais (UFMG)</p>
+                <p>Av. Pres. Antônio Carlos, 6627 - Pampulha</p>
+                <p>Belo Horizonte - MG, 31270-901</p>
+                <p>Brazil</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Connect With Us</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3>Social Media</h3>
+                    <p><a href="#">Twitter/X: @dphi_lab</a></p>
+                    <p><a href="#">Instagram: @dphi.lab</a></p>
+                    <p><a href="#">Facebook: d.Phi Lab</a></p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>Academic Networks</h3>
+                    <p><a href="#">ResearchGate</a></p>
+                    <p><a href="#">Academia.edu</a></p>
+                    <p><a href="#">PhilPeople</a></p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>Code & Data</h3>
+                    <p><a href="#">GitHub: dphi-lab</a></p>
+                    <p><a href="#">OSF Project Page</a></p>
+                </div>
+            </div>
+                                -->
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logos">
+                <img src="CNPq_v2017_rgb.jpg" alt="CNPq Logo">
+                <img src="logo_ufmg_site.png" alt="UFMG Logo">
+            </div>
+            <div class="footer-text">
+                <p>&copy; 2024 d.Phi Lab - Experimental Philosophy @ UFMG. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
