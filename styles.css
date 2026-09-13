@@ -293,9 +293,9 @@ section p {
 }
 
 news-item img {
-    width: 70px;
+    width: 40px;
     height: auto;
-    max-height: 70px;
+    max-height: 40px;
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 1rem;
