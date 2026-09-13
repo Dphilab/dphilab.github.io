@@ -21,6 +21,7 @@ body {
     flex-direction: column;
 }
 
+
 /* Header & Navigation */
 header {
     background: var(--white);
@@ -289,6 +290,16 @@ section p {
     margin-bottom: 2rem;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+news-item img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    display: block;
 }
 
 .news-item .date {
