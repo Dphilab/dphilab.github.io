@@ -295,7 +295,7 @@ section p {
 news-item img {
     width: 100%;
     height: auto;
-    max-height: 300px;
+    max-height: 70px;
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 1rem;
